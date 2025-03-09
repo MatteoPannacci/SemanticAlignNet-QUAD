@@ -8,14 +8,24 @@ This repository refers to the work [Enhancing Ground-to-Aerial Image Matching fo
 The recent development of generative AI techniques, which has increased the online diffusion of altered images and videos, raises concerns about the credibility of digital media accessible on the Internet and shared by information channels and social networks. Domains that rely on this data, such as journalism, forensic analysis, and earth observation, suffer because of this problem. At this aim, being capable of geolocating a non-geo-tagged ground-view image without external information, like GPS coordinates, is becoming crucial. 
 This study addresses the challenge of linking a ground-view image, on different FoV values, to its corresponding satellite image without relying on GPS data. A novel four-stream Siamese-like architecture, Quadruple Semantic Align Net (SAN-QUAD), was introduced to achieve this. SAN-QUAD expands previous SOTA methods, leveraging semantic segmentation applied to both ground and satellite images. The obtained results on the CVUSA dataset show notable improvements, up to 9.8%, over previous methods when tested across all available fields of view (FoV).
 
-## Model 
+## Model Overview
+The architecture is composed of four branches, two for the ground viewpoint and two for the satellite one. Each branch takes as input either an RGB image or a semantic segmentation mask and produces a
+feature volume. The volumes relative to the same viewpoint are then combined into the final feature representations which are compared to obtain the most likely orientation and perform the matching.
 ![plot](./SAN_QUAD_Model.png)
+
+## Dataset
+The original subset of CVUSA is enriched with additional features obtained from the RGB images. Each sample of the new dataset consists of 5 different types of data: 
+1. Ground RGB Image ([original](https://arxiv.org/pdf/1612.02709))
+2. Ground Semantic Segmentation Mask (ours)
+3. Ground Depth Estimation Mask (ours)
+4. Satellite RGB Image ([original](https://arxiv.org/pdf/1612.02709))
+5. Satellite Semantic Segmentation Mask (from [https://arxiv.org/abs/2404.11299](https://arxiv.org/abs/2404.11299))
+The enriched dataset is available for download [here](https://drive.google.com/file/d/11DR7zhd6wchdyt8DSkTY2JGgf_jrtf1D)
 
 ## Requirements
 1. This code uses a ```tensorflow``` docker with libraries ```opencv-python 4.8.0.74``` ```pillow 10.0.0``` ```transformers```, ```torch```, ```gradio_imageslider```, ```gradio 4.14.0```, ```torchvision```, ```huggingface_hub``` and runs on modern GPU of at least 6GB of memory
 2. We run the code with ```Python 3.9.2```
-3. Download the used CVUSA subset at the following link: 
-    - https://drive.google.com/file/d/11DR7zhd6wchdyt8DSkTY2JGgf_jrtf1D
+3. Download the enriched CVUSA subset
 
 ## Steps
 - Clone this repository 
