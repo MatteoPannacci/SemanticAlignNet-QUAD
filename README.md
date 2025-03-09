@@ -20,7 +20,8 @@ The original subset of CVUSA is enriched with additional features obtained from 
 3. Ground Depth Estimation Mask (ours)
 4. Satellite RGB Image ([original](https://arxiv.org/pdf/1612.02709))
 5. Satellite Semantic Segmentation Mask (from [https://arxiv.org/abs/2404.11299](https://arxiv.org/abs/2404.11299))
-The enriched dataset is available for download [here](https://drive.google.com/file/d/11DR7zhd6wchdyt8DSkTY2JGgf_jrtf1D)
+   
+The enriched dataset is available for download [here](https://drive.google.com/file/d/11DR7zhd6wchdyt8DSkTY2JGgf_jrtf1D).
 
 ## Requirements
 1. This code uses a ```tensorflow``` docker with libraries ```opencv-python 4.8.0.74``` ```pillow 10.0.0``` ```transformers```, ```torch```, ```gradio_imageslider```, ```gradio 4.14.0```, ```torchvision```, ```huggingface_hub``` and runs on modern GPU of at least 6GB of memory
