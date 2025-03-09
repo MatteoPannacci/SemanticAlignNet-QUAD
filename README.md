@@ -19,7 +19,7 @@ feature volume. The volumes relative to the same viewpoint are then combined int
 
 
 ## Dataset
-The original subset of CVUSA is enriched with additional features obtained from the RGB images. Each sample of the new dataset consists of 5 different types of data: 
+The original subset of CVUSA from [Predicting Ground-Level Scene Layout from Aerial Imagery](https://arxiv.org/pdf/1612.02709) is enriched with additional features obtained from the RGB images. Each sample of the new dataset consists of 5 different types of data: 
 1. Ground RGB Image ([original](https://arxiv.org/pdf/1612.02709))
 2. Ground Semantic Segmentation Mask (ours)
 3. Ground Depth Estimation Mask (ours)
