@@ -11,7 +11,12 @@ This study addresses the challenge of linking a ground-view image, on different 
 ## Model Overview
 The architecture is composed of four branches, two for the ground viewpoint and two for the satellite one. Each branch takes as input either an RGB image or a semantic segmentation mask and produces a
 feature volume. The volumes relative to the same viewpoint are then combined into the final feature representations which are compared to obtain the most likely orientation and perform the matching.
-![plot](./SAN_QUAD_Model.png)
+
+![plot](./figures/model.png)
+
+## Results
+![plot](./figures/results.png)
+
 
 ## Dataset
 The original subset of CVUSA is enriched with additional features obtained from the RGB images. Each sample of the new dataset consists of 5 different types of data: 
