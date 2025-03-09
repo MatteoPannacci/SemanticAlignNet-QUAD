@@ -1,4 +1,4 @@
-# Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation
+# SemanticAlignNet-QUAD
 
 This repository refers to the work [Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation](https://arxiv.org/abs/2502.06288) presented at the [AI4MFDD 2025 workshop](https://warwick.ac.uk/fac/sci/dcs/research/siplab/ai4mfdd2025/) at [WACV 2025](https://wacv2025.thecvf.com/).
 
@@ -58,6 +58,12 @@ The enriched dataset is available for download [here](https://drive.google.com/f
         - ```streetview``` this folder contains the ground view images (streetview)
         - ```streetview_depth``` this folder contains the depth estimation masks of the ground view images
         - ```streetview_segmentation``` this folder contains the semantic segmentation masks of the ground view images
+
+
+## Acknowledgments
+This project in an extension of the methodology proposed in the following works:
+- [Where am I looking at? Joint Location and Orientation Estimation by Cross-View Matching](https://arxiv.org/abs/2005.03860)
+- [A Semantic Segmentation-guided Approach for Ground-to-Aerial Image Matching](https://arxiv.org/abs/2404.11302)
 
 
 ## Citation
