@@ -47,8 +47,6 @@ This study addresses the challenge of linking a ground-view image, on different 
 ## Citation
 If you use this code or the models, please give credit to the following paper:
 
-.. code-block:: bash
-
 	@misc{mule2025enhancinggroundtoaerialimagematching,
 	      title={Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation}, 
 	      author={Emanuele Mule and Matteo Pannacci and Ali Ghasemi Goudarzi and Francesco Pro and Lorenzo Papa and Luca Maiano and Irene Amerini},
