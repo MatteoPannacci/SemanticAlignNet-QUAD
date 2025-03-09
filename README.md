@@ -42,3 +42,19 @@ This study addresses the challenge of linking a ground-view image, on different 
         - ```streetview``` this folder contains the ground view images (streetview)
         - ```streetview_depth``` this folder contains the depth estimation masks of the ground view images
         - ```streetview_segmentation``` this folder contains the semantic segmentation masks of the ground view images
+
+
+## Citation
+If you use this code or the models, please give credit to the following paper:
+
+.. code-block:: bash
+
+	@misc{mule2025enhancinggroundtoaerialimagematching,
+	      title={Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation}, 
+	      author={Emanuele Mule and Matteo Pannacci and Ali Ghasemi Goudarzi and Francesco Pro and Lorenzo Papa and Luca Maiano and Irene Amerini},
+	      year={2025},
+	      eprint={2502.06288},
+	      archivePrefix={arXiv},
+	      primaryClass={cs.CV},
+	      url={https://arxiv.org/abs/2502.06288}, 
+	}
