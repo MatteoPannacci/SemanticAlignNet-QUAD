@@ -1,10 +1,12 @@
 # Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation
 
-<p align="justify">This repository refers to the work [Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation](https://arxiv.org/abs/2502.06288) presented at the [AI4MFDD 2025 workshop](https://warwick.ac.uk/fac/sci/dcs/research/siplab/ai4mfdd2025/) at [WACV 2025](https://wacv2025.thecvf.com/).</p>
+This repository refers to the work [Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation](https://arxiv.org/abs/2502.06288) presented at the [AI4MFDD 2025 workshop](https://warwick.ac.uk/fac/sci/dcs/research/siplab/ai4mfdd2025/) at [WACV 2025](https://wacv2025.thecvf.com/).
+
+
 
 ## Abstract
-<p align="justify">The recent development of generative AI techniques, which has increased the online diffusion of altered images and videos, raises concerns about the credibility of digital media accessible on the Internet and shared by information channels and social networks. Domains that rely on this data, such as journalism, forensic analysis, and earth observation, suffer because of this problem. At this aim, being capable of geolocating a non-geo-tagged ground-view image without external information, like GPS coordinates, is becoming crucial. 
-This study addresses the challenge of linking a ground-view image, on different FoV values, to its corresponding satellite image without relying on GPS data. A novel four-stream Siamese-like architecture, Quadruple Semantic Align Net (SAN-QUAD), was introduced to achieve this. SAN-QUAD expands previous SOTA methods, leveraging semantic segmentation applied to both ground and satellite images. The obtained results on the CVUSA dataset show notable improvements, up to 9.8%, over previous methods when tested across all available fields of view (FoV).</p>
+The recent development of generative AI techniques, which has increased the online diffusion of altered images and videos, raises concerns about the credibility of digital media accessible on the Internet and shared by information channels and social networks. Domains that rely on this data, such as journalism, forensic analysis, and earth observation, suffer because of this problem. At this aim, being capable of geolocating a non-geo-tagged ground-view image without external information, like GPS coordinates, is becoming crucial. 
+This study addresses the challenge of linking a ground-view image, on different FoV values, to its corresponding satellite image without relying on GPS data. A novel four-stream Siamese-like architecture, Quadruple Semantic Align Net (SAN-QUAD), was introduced to achieve this. SAN-QUAD expands previous SOTA methods, leveraging semantic segmentation applied to both ground and satellite images. The obtained results on the CVUSA dataset show notable improvements, up to 9.8%, over previous methods when tested across all available fields of view (FoV).
 
 ## Model 
 ![plot](./SAN_QUAD_Model.png)
