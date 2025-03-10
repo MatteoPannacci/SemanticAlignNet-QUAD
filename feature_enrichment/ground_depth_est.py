@@ -59,7 +59,7 @@ def obtain_depth_map(model, transform, img_path):
 
     return colored_depth
 
-# here we iterate the defined function over each image in the dataset and save them
+# here we iterate the defined function over each image in the dataset and then save them
 
 src_dir_path = "../../../Data/CVUSA_subset/streetview"
 target_dir_path = "../../../Data/CVUSA_subset/streetview_depth_new"
