@@ -81,12 +81,10 @@ This project in an extension of the methodology proposed in the following works:
 
 If you use this code or the models, please give credit to the following paper:
 
-    @misc{mule2025enhancinggroundtoaerialimagematching,
-          title={Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation},
-          author={Emanuele Mule and Matteo Pannacci and Ali Ghasemi Goudarzi and Francesco Pro and Lorenzo Papa and Luca Maiano and Irene Amerini},
-          year={2025},
-          eprint={2502.06288},
-          archivePrefix={arXiv},
-          primaryClass={cs.CV},
-          url={https://arxiv.org/abs/2502.06288},
+    @inproceedings{mule2025enhancing,
+        title={Enhancing Ground-to-Aerial Image Matching for Visual Misinformation Detection Using Semantic Segmentation},
+        author={Mule, Emanuele and Pannacci, Matteo and Goudarzi, Ali Ghasemi and Pro, Francesco and Papa, Lorenzo and Maiano, Luca and Amerini, Irene},
+        booktitle={Proceedings of the Winter Conference on Applications of Computer Vision},
+        pages={795--803},
+        year={2025}
     }
