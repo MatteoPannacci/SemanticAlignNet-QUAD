@@ -1,0 +1,153 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+  }
+  
+  
+  .footer .icon-link {
+      font-size: 25px;
+      color: #000;
+  }
+  
+  .link-block a {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  
+  .dnerf {
+    font-variant: small-caps;
+  }
+  
+  
+  .teaser .hero-body {
+    padding-top: 0;
+    padding-bottom: 3rem;
+  }
+  
+  .teaser {
+    font-family: 'Google Sans', sans-serif;
+  }
+  
+  
+  .publication-title {
+  }
+  
+  .publication-banner {
+    max-height: parent;
+  
+  }
+  
+  .publication-banner video {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    object-fit: fit;
+  }
+  
+  .publication-header .hero-body {
+  }
+  
+  .publication-title {
+      font-family: 'Google Sans', sans-serif;
+  }
+  
+  .publication-authors {
+      font-family: 'Google Sans', sans-serif;
+  }
+  
+  .publication-venue {
+      color: #555;
+      width: fit-content;
+      font-weight: bold;
+  }
+  
+  .publication-awards {
+      color: #ff3860;
+      width: fit-content;
+      font-weight: bolder;
+  }
+  
+  .publication-authors {
+  }
+  
+  .publication-authors a {
+     color: hsl(204, 86%, 53%) !important;
+  }
+  
+  .publication-authors a:hover {
+      text-decoration: underline;
+  }
+  
+  .author-block {
+    display: inline-block;
+  }
+
+  td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+  .methodname {
+    font-variant: small-caps;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-variant-caps: small-caps;
+    font-variant-alternates: normal;
+    font-variant-position: normal;
+}
+
+
+  .publication-banner img {
+  }
+  
+  .publication-authors {
+    /*color: #4286f4;*/
+  }
+  
+  .publication-video {
+      width: 100%;
+      
+      padding-bottom: 10%;
+  
+      overflow: hidden;
+  
+  }
+  
+  
+  .publication-body img {
+  }
+  
+  .results-carousel {
+    overflow: hidden;
+  }
+  
+  .results-carousel .item {
+    margin: 5px;
+    overflow: hidden;
+    padding: 20px;
+    font-size: 0;
+  }
+  
+  .results-carousel video {
+    margin: 0;
+  }
+  
+  .slider-pagination .slider-page {
+    background: #000000;
+  }
+  
+  .eql-cntrb { 
+    font-size: smaller;
+  }
+
+  .selectable {
+    text-align: left;
+    -webkit-touch-callout: all;
+    -webkit-user-select: all;
+    -khtml-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
