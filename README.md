@@ -2,7 +2,8 @@
 <p align="center">
     <a href="https://arxiv.org/abs/2502.06288"><img src="https://img.shields.io/badge/arXiv-2502.06288-b31b1b.svg" alt="Paper"></a>
     <a href="https://github.com/MatteoPannacci/SemanticAlignNet-QUAD"><img src="https://img.shields.io/badge/-Github-grey?logo=github" alt="Github"></a>
-    <!-- <a href="https://openreview.net/forum?id=EqpR9Vtt13"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=NeurIPS%2723&color=blue"> </a> -->
+    <!-- <a href="https://openreview.net/forum?id=EqpR9Vtt13"> <img alt="License" src="https://img.shields.io/static/v1?label=Pub&message=NeurIPS%2723&color=blue"></a> -->
+    <a href="https://matteopannacci.github.io/SemanticAlignNet-QUAD"><img src="https://img.shields.io/badge/Website-grey?logo=google-chrome&logoColor=white" alt="Website"></a>
     <a href="https://github.com/MatteoPannacci/SemanticAlignNet-QUAD/blob/main/LICENSE"> <img alt="License" src="https://img.shields.io/github/license/MatteoPannacci/SemanticAlignNet-QUAD?color=blue"></a>
     <a href="https://youtu.be/oABNgMUd19g?feature=shared"> <img src="https://img.shields.io/badge/Video-grey?logo=Kuaishou&logoColor=white" alt="Video"></a>
     <!-- <a href="https://lfhase.win/files/slides/GALA.pdf"> <img src="https://img.shields.io/badge/Slides-grey?&logo=MicrosoftPowerPoint&logoColor=white" alt="Slides"></a> -->
